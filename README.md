@@ -51,3 +51,63 @@ Just remember: when in doubt, treat this project as though you are about to subm
 Good luck and if you have questions, please reach out to us at hiring@classkick.com
 
 
+# TEST COMPLETED
+
+# Summary
+
+## 1. Imports Explanation
+
+### 1.1 Icons from `react-icons/fa`
+
+I use these icons to easily integrate and manage UI elements like drawing, erasing, and file actions, providing a consistent and visually appealing interface.
+
+### 1.2 `axios`
+
+I use `axios` for making HTTP requests to fetch data, such as retrieving flags. It provides a straightforward API for handling responses and errors.
+
+## 2. Component Import vs. Inline Creation
+
+### `import Modal from '../Modal'`
+
+I import the `Modal` component from a separate file because:
+- **It helps keep code organized and modular.**
+- **It allows me to reuse components across the application.**
+- **It simplifies maintenance and testing.**
+
+## 3. Testing Tools Choice
+
+### Cypress and Jest
+
+- **Cypress**: I use it for end-to-end testing to simulate user interactions and check overall application functionality.
+- **Jest**: I use it for unit testing to ensure individual components and functions work correctly in isolation.
+
+## 4. Script Explanations
+
+- **`dev`**: Runs `next dev` to start the Next.js development server. This is used for local development.
+
+- **`build`**: Runs `next build` to create an optimized production build of the application.
+
+- **`start`**: Runs `next start` to start the Next.js production server after building the application.
+
+- **`lint`**: Runs `next lint` to check the code for linting issues and enforce coding standards.
+
+- **`test`**: Runs the development server (`npm run dev`), waits for it to be available on `http://localhost:3000`, then runs unit tests with Jest (`jest`) and end-to-end tests with Cypress (`cypress run`).
+
+- **`jest`**: Runs unit tests using Jest to check the functionality of individual components and functions.
+
+- **`cypress:open`**: Opens the Cypress Test Runner in interactive mode, allowing for manual testing and debugging of end-to-end tests.
+
+- **`cypress:run`**: Runs Cypress tests in headless mode, typically used for automated testing in CI/CD pipelines.
+
+## 5. Clarification
+
+- I created a test to validate if flag selection was working. The test works correctly but generated a warning indicating that a Canvas update within a test was not included in `act(...)`. 
+
+- I attempted several ways and methods to resolve this warning but could not fix it. 
+
+- I will try to resolve it with more time and patience. 
+
+- The code for this test is commented out (in the file `index.test.tsx`) to prevent it from generating the warning while running other tests.
+
+
+

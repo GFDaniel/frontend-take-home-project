@@ -1,0 +1,60 @@
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalTitle {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+}
+  
+.modalContent {
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+  
+.inputField {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    color: black;
+    background-color: #fff;
+    border: 1px solid #D6DBDC;
+    border-radius: 5px;
+}
+  
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.submitButton {
+    padding: 10px 20px;
+    border: none;
+    background: #98D6D6;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+  
+.closeButton {
+    padding: 10px 20px;
+    border: none;
+    background: #D6DBDC;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+  
