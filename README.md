@@ -81,6 +81,10 @@ I import the `Modal` component from a separate file because:
 - **Cypress**: I use it for end-to-end testing to simulate user interactions and check overall application functionality.
 - **Jest**: I use it for unit testing to ensure individual components and functions work correctly in isolation.
 
+#### Results
+![Jest](public/jest.png)
+![Cypress](public/cypress.png)
+
 ## 4. Script Explanations
 
 - **`dev`**: Runs `next dev` to start the Next.js development server. This is used for local development.
