@@ -86,8 +86,6 @@ I import the `Modal` component from a separate file because:
 ![Jest](public/jest.png)
 - Cypress
 ![Cypress](public/cypress.png)
-- Screenshot
-![Screenshot](public/screenshot.png)
 
 ## 4. Script Explanations
 
@@ -117,5 +115,7 @@ I import the `Modal` component from a separate file because:
 
 - The code for this test is commented out (in the file `index.test.tsx`) to prevent it from generating the warning while running other tests.
 
+## 6. Screenshot
+![Screenshot](public/screenshot.png)
 
 
