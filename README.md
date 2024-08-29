@@ -82,8 +82,12 @@ I import the `Modal` component from a separate file because:
 - **Jest**: I use it for unit testing to ensure individual components and functions work correctly in isolation.
 
 #### Results
+- Jest
 ![Jest](public/jest.png)
+- Cypress
 ![Cypress](public/cypress.png)
+- Screenshot
+![Screenshot](public/screenshot.png)
 
 ## 4. Script Explanations
 
